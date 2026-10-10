@@ -118,6 +118,13 @@ Returns `204 No Content` if the expense is deleted, or `404 Not Found` if it doe
 
 The selected profile must match the available service implementation. Database configuration is required when using the `db` profile.
 
+## H2 Database Console
+When using the `db` profile, you can access the H2 database console at:
+
+`http://localhost:8080/h2-console`
+
+Use the JDBC URL and credentials configured in `application.properties` to connect to the database and view stored expenses.
+
 ## Project Goals
 This project was created to practise Java backend development and learn how to build REST APIs with Spring Boot.
 It demonstrates the use of controllers, services, repositories, dependency injection, Java Streams, JSON processing, and database persistence.
